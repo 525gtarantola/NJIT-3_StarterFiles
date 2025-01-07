@@ -11,7 +11,7 @@
         "website": "No official website available",
         "likes": 1124,
         "dislikes": 135,
-        "posterindex": 2
+        "posterindex": 0
     },
     {
         "title": "Friday the 13th",
@@ -25,7 +25,7 @@
         "website": "No official website available",
         "likes": 1035,
         "dislikes": 117,
-        "posterindex": 2
+        "posterindex": 0
     },
     {
         "title": "Halloween",
@@ -39,7 +39,7 @@
         "website": "No official website available",
         "likes": 920,
         "dislikes": 107,
-        "posterindex": 2
+        "posterindex": 0
     },
     {
         "title": "A Nightmare on Elm Street",
@@ -53,7 +53,7 @@
         "website": "No official website available",
         "likes": 905,
         "dislikes": 142,
-        "posterindex": 2
+        "posterindex": 0
     },
     {
         "title": "Pulp Fiction",
@@ -67,7 +67,7 @@
         "website": "No official website available",
         "likes": 987,
         "dislikes": 111,
-        "posterindex": 2
+        "posterindex": 0
     },
     {
         "title": "Scream",
@@ -81,7 +81,7 @@
         "website": "No official website available",
         "likes": 1001,
         "dislikes": 145,
-        "posterindex": 2
+        "posterindex": 0
     },
     {
         "title": "Silence of the Lambs",
@@ -95,7 +95,7 @@
         "website": "No official website available",
         "likes": 982,
         "dislikes": 125,
-        "posterindex": 2
+        "posterindex": 0
     },
     {
         "title": "X",
@@ -109,6 +109,6 @@
         "website": "No official website available",
         "likes": 931,
         "dislikes": 98,
-        "posterindex": 2
+        "posterindex": 0
     }
 ]

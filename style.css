@@ -5,7 +5,9 @@ body {
     padding: 0;
     width: 100%;
     overflow: auto;
-    background-image: url(img/geometry.jpg);
+    background-image: url(img/oo.webp);
+    background-repeat: no-repeat;
+    background-size: cover; 
 }
 
 /* This stylizes the header area */
