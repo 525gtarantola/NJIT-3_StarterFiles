@@ -15,7 +15,7 @@ body {
 
 /* This stylizes the header area */
 .header {
-    padding: 15px;
+    padding: 40px;
 }
 .header h1 {
     display: inline-block;
@@ -35,22 +35,27 @@ body {
     padding: 20px;
     margin: 20px;
     border-radius: 0;
-    background-color:#dddddd;
-}
-.thumbnail img {
-    margin-top: 10px;
-    margin-bottom: 30px;
-    padding: 5px;
-    border: 2px dashed black;
+    background-color: #dddddd;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Ensures consistent spacing */
 }
 
-/* This stylizes your "Poster X of Y" text */
+.thumbnail img {
+    display: block;
+    margin: 0 auto; /* Center the image horizontally */
+    padding: 0; /* Ensure no additional padding */
+    border: 2px dashed black;
+    height: 700px; /* Set a fixed height for all images */
+    object-fit: cover; /* Ensures images fill the space without stretching */
+}
+
 .imageInfo {
-	color: #959595;
-	font-style: italic;
-	font-size: x-small;
-	float: right;
-	padding-right: 5px;
+    color: #959595;
+    font-style: italic;
+    font-size: x-small;
+    float: right;
+    padding-right: 5px;
 }
 
 /* This stylizes your Title and Rating Text */
@@ -114,26 +119,26 @@ body {
 }
 
 .likes {
-    background: #008700;
+    background: green;
     color: white;
     transition: 0.25s;
 }
 
 .likes:hover {
     background-color: #9edd87;
-    color: #008700;
+    color: green;
     transition: 0.25s;
 }
 
 .dislikes {
-    background: #f65a5b;
+    background: red;
     color: white;
     transition: 0.25s;
 }
 
 .dislikes:hover {
     background-color: #fdd6d6;
-    color: #F65A5B;
+    color: red;
     transition: 0.25s;
 }
 
@@ -146,6 +151,7 @@ body {
 /* This makes sure your Github Button text is small */
 #github{
 	font-size: small;
+    background-color: white;
 }
 
 /* ADD YOUR LIKE AND DISLIKE HOVER/MOUSEOVER CSS CODE HERE */
